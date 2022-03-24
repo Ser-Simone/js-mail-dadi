@@ -12,15 +12,13 @@ for (let i=0; i<mailPresenti.length; i++)
     if(mail == mailPresenti[i])
     {
         alert ("la tua mail è accettata")
+        pippo=1
         break;
     }
-    else
-    { 
-        pippo = 1
-    }
+   
 
 }
-if(pippo!=0)
+if(pippo==0)
 {
     alert ("la tua mail non è accettata")
 }
